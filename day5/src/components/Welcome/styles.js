@@ -3,7 +3,7 @@ import { Flex } from "@rebass/grid"
 
 export const Text = styled(Flex)`
   color: ${({ theme }) => theme.colors.mainBackground};
-  font-size: 4em;
+  font-size: 1.5em;
   font-family: ${({ theme }) => theme.fonts.primary.family};
   font-weight: ${({ theme }) => theme.fonts.primary.weight};
 `
